@@ -8,5 +8,14 @@ function takeANumber(line, name) {
 }
 
 function currentLine(line) {
-    
-}
+  if line.length === 0 then {
+    return ""  
+  }
+  
+  var rtn = ""
+  
+  line.forEach(function(e, idx) {
+    rtn = rtn + (idx + 1) + ". " + e 
+  });
+  return rtn
+} 
