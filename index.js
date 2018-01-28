@@ -2,8 +2,8 @@ var katzDeli = [];
 
 function takeANumber(line, name) {
   var t = line;
-  t.
+  t.push(name)
   
-  return line
+  return t
   
 }
