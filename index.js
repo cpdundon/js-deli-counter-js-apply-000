@@ -7,3 +7,6 @@ function takeANumber(line, name) {
   return l
 }
 
+function currentLine(line) {
+    
+}
