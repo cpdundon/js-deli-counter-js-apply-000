@@ -15,7 +15,7 @@ function currentLine(line) {
   var rtn = ""
   
   line.forEach(function(e, idx) {
-    rtn = rtn + (idx + 1) + ". " + e 
+    rtn = rtn + (idx + 1) + ". " + e + " "
   });
   return rtn
 } 
