@@ -20,5 +20,5 @@ function currentLine(line) {
   
   var l = rtn.length
   
-  return rtn
+  return rtn.substring(0, l - 2)
 } 
