@@ -17,5 +17,8 @@ function currentLine(line) {
   line.forEach(function(e, idx) {
     rtn = rtn + " " + (idx + 1) + ". " + e + ","
   });
+  
+  var l = rtn.length
+  
   return rtn
 } 
