@@ -12,10 +12,10 @@ function currentLine(line) {
     return "The line is currently empty."  
   }
   
-  var rtn = ""
+  var rtn = "The line is currently:"
   
   line.forEach(function(e, idx) {
-    rtn = rtn + (idx + 1) + ". " + e + " "
+    rtn = rtn + " " + (idx + 1) + ". " + e
   });
   return rtn
 } 
