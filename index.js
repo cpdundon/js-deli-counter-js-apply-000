@@ -9,7 +9,7 @@ function takeANumber(line, name) {
 
 function currentLine(line) {
   if line.length === 0 then {
-    return ""  
+    return "The line is currently empty."  
   }
   
   var rtn = ""
